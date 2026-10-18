@@ -1,0 +1,1 @@
+{"name":"circle-sector-lab","version":"1.0.0","type":"module","scripts":{"dev":"vite --host 0.0.0.0","build":"vite build","preview":"vite preview --host 0.0.0.0"},"dependencies":{"@supabase/supabase-js":"^2.49.1","vite":"^6.2.0"},"devDependencies":{}}
