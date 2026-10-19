@@ -12,3 +12,12 @@
 
 /* 교사 대시보드: 활동별 잠금 및 답변 상시 표시 */
 .stage-controls{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:10px;margin:14px 0}.stage-control{border:1px solid #d5e3e9;border-radius:12px;background:#f6f9fb;padding:12px;text-align:left;color:#506979;font-weight:800}.stage-control.is-open{background:#e1f4ee;border-color:#87c9b7;color:#08766b}.stage-control[aria-current=step]{outline:2px solid #087c78;outline-offset:1px}.stage-control small{display:block;margin-top:7px;font-size:11px;font-weight:500;color:inherit;opacity:.8}.answers-table{min-width:1080px}.answers-cell{min-width:250px;max-width:400px;white-space:normal;vertical-align:top}.answer-entry{border-bottom:1px solid #e5eef1;padding:6px 0;overflow-wrap:anywhere;white-space:pre-wrap}.answer-entry:last-child{border:0}.answer-entry b{display:block;color:#08766b;margin-bottom:4px}.answer-entry div{line-height:1.55;color:#344d5d}.answers-table td{vertical-align:top}
+
+/* Teacher controls: keep the next-stage action prominent. */
+.next-stage-row{display:flex;align-items:center;flex-wrap:wrap;gap:14px;margin:18px 0 8px;padding:16px;border-radius:14px;background:#eaf8f4;border:1px solid #b8e2d5}
+.next-stage-row .primary{font-size:16px;padding:14px 24px}
+.next-stage-row .muted{margin:0}
+.stage-controls{display:grid;grid-template-columns:repeat(auto-fit,minmax(125px,1fr));gap:9px;margin:12px 0}
+.stage-control{border:1px solid #cbdce6;border-radius:12px;background:#f4f7fa;padding:12px;text-align:left;color:#41576b;font-weight:800}
+.stage-control.is-open{background:#e3f5ef;border-color:#65bca9;color:#06796c}
+.stage-control small{display:block;font-size:11px;margin-top:5px;line-height:1.5;font-weight:500}
