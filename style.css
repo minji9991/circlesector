@@ -21,3 +21,6 @@
 .stage-control{border:1px solid #cbdce6;border-radius:12px;background:#f4f7fa;padding:12px;text-align:left;color:#41576b;font-weight:800}
 .stage-control.is-open{background:#e3f5ef;border-color:#65bca9;color:#06796c}
 .stage-control small{display:block;font-size:11px;margin-top:5px;line-height:1.5;font-weight:500}
+
+/* 교사 대시보드: 문항별 답변 모아보기 */
+.answer-group{margin-top:22px;padding:20px;border:1px solid #dce9ed;border-radius:16px;background:#fbfdfd}.answer-group h3{font-size:16px;color:#183548;margin:0 0 15px}.answer-count{font-size:12px;font-weight:600;color:#087c78;margin-left:8px}.answer-list{display:grid;gap:9px}.answer-row{display:grid;grid-template-columns:160px minmax(0,1fr);gap:15px;align-items:start;padding:13px 15px;background:#fff;border:1px solid #e3edf0;border-radius:10px}.answer-student{font-size:13px;font-weight:800;color:#087c78}.answer-text{font-size:14px;white-space:pre-wrap;overflow-wrap:anywhere;line-height:1.65;color:#193246}@media(max-width:700px){.answer-row{grid-template-columns:1fr;gap:5px}}
